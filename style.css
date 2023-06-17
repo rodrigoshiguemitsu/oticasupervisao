@@ -523,7 +523,7 @@ footer{
     }
     
     main{
-        max-width: 10440px;
+        max-width: 1440px;
         width: 100%;
         margin: auto;
         background-color: rgba(0, 0, 0, 0.048);
@@ -678,7 +678,7 @@ footer{
     
     #article2{
         text-align: center;
-        max-width: 1500px;
+        max-width: 1440px;
         width: 100%;
         margin:auto;
         margin-top: -70px;
@@ -698,7 +698,7 @@ footer{
     
     #article3{
         text-align: center;
-        max-width: 1500px;
+        max-width: 1440px;
         width: 100%;
         margin: auto;
     }
