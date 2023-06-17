@@ -3,70 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagens/favicon.ico">
     <link rel="stylesheet" href="style.css">
     <title>Ótica super visão</title>
 </head>
 <body>
-        <header>
-        <img src="Imagens/logo1pq.png" alt="logo1pq">
-        
-    </header>
-    <article class="article1">
-        
-        <div class="slider">
+        <main>
+            <header>
+                <div class="cabecalho">
+                    <a href="index.html"><img src="Imagens/logo1pq.png" alt="logo1pq"></a>
+                </div>
+                <div class="cabecalho" id="menu">
+                    <ul id="menu-h">
+                        <li><a href="#">Óculos de Sol</a></li>
+                        <li><a href="#">Óculos de Grau</a></li>
+                        <li><a href="#">Lentes de contato</a></li>
+                        <li><a href="#">Quem Somos</a></li>
+
+                    </ul>
+                </div>
+           
+
+            </header>
+                
+            <article id="article1">
             
-            <div class="slides">
-                <!--Radio Buttons-->
-                <input type="radio" name="radio-btn" id="radio1">
-                <input type="radio" name="radio-btn" id="radio2">
-                <input type="radio" name="radio-btn" id="radio3">
-                <input type="radio" name="radio-btn" id="radio4">
-                <!--FIM Radio Buttons-->
-
-                <!--Slide Images-->
-                <div class="slide first">
-                    <img src="imagens/oc1.jpg" alt="Imagem 1"/>
+            <div class="slider">
+            
+                <div class="slides">
+                    <!--Radio Buttons-->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <!--FIM Radio Buttons-->
+                    <!--Slide Images-->
+                    <div class="slide first">
+                        <img src="imagens/oc1.jpg" alt="Imagem 1"/>
+                    </div>
+                    <div class="slide">
+                        <img src="imagens/oc2.jpg" alt="Imagem 2"/>
+                    </div>
+                    <div class="slide">
+                        <img src="imagens/oc3.jpg" alt="Imagem 3"/>
+                    </div>
+                    <div class="slide">
+                        <img src="imagens/oc4.jpg" alt="Imagem 4"/>
+                    </div>
+                    <!--FIM Slide Images-->
+                    <!--Navigation auto-->
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
                 </div>
-                <div class="slide">
-                    <img src="imagens/oc2.jpg" alt="Imagem 2"/>
-                </div>
-                <div class="slide">
-                    <img src="imagens/oc3.jpg" alt="Imagem 3"/>
-                </div>
-                <div class="slide">
-                    <img src="imagens/oc4.jpg" alt="Imagem 4"/>
-                </div>
-                <!--FIM Slide Images-->
-
-                <!--Navigation auto-->
-                <div class="navigation-auto">
-                    <div class="auto-btn1"></div>
-                    <div class="auto-btn2"></div>
-                    <div class="auto-btn3"></div>
-                    <div class="auto-btn4"></div>
-
+            
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
                 </div>
             </div>
             
-            <div class="manual-navigation">
-                <label for="radio1" class="manual-btn"></label>
-                <label for="radio2" class="manual-btn"></label>
-                <label for="radio3" class="manual-btn"></label>
-                <label for="radio4" class="manual-btn"></label>
+                </article>
+                
+                <article id="article2">
+            <div class="aga2">
+                <h2>Lançamentos</h2>
             </div>
-        </div>
-        
-    </article>
-    <article>
-        <p>banner carrossel 2 !</p>
-    </article>
-    <article>
-        <p>banner carrossel 3 !</p>
-    </article>
-    
-    <footer>
-        <p>Rodapé</p>
-    </footer>
+            <div class="lancamentos">
+            
+                <div class="modelos">
+                    <a href="#"><img src="imagens/oc5.jpg" alt="Imagem 5"></a>
+                    <div class="descricaomodelo">
+                        <div>Marca</div>
+                        <div>Modelo</div>
+                        <div><strong>Valor</strong></div>
+                    </div>
+                </div>
+                <div class="modelos">
+                    <a href="#"><img src="imagens/oc6.jpg" alt="Imagem 6"></a>
+                    <div class="descricaomodelo">
+                        <div>Marca</div>
+                        <div>Modelo</div>
+                        <div><strong>Valor</strong></div>
+                    </div>
+                </div>
+                <div class="modelos">
+                    <a href="#"><img src="imagens/oc7.jpg" alt="Imagem 7"></a>
+                    <div class="descricaomodelo">
+                        <div>Marca</div>
+                        <div>Modelo</div>
+                        <div><strong>Valor</strong></div>
+                    </div>
+                </div>
+            </div>
+                </article>
+                <article id="article3">
+            <div>
+                <h2>Serviços</h2>
+            </div>
+            <div class="servicos">
+                <div class="imgservicos">
+                    <a href=""><img src="imagens/oc8.jpg" alt=""></a>
+                </div>
+                <div class="imgservicos">
+                    <h3>serviços oferecidos</h3>
+                </div>
+            </div>
+                </article>
+                
+                <footer>
+                    <div id="foot1">
+                        <div class="informacoesfoot">
+                            <a href="https://www.instagram.com/oticasupervisao.bauru/" target="_blank"><img src="imagens/iconinstragram.jpg" alt=""></a>
+                            <a href="https://www.facebook.com/oticasupervisaobauru/?locale=pt_BR" target="_blank"><img src="imagens/iconfacebook.jpg" alt=""></a>
+                        </div>
+                        <div class="informacoesfoot">
+                            <p>&copy;Copyright</p>
+                            <p>Todos os direitos reservados</p>
+                        </div>
+                        <div class="informacoesfoot">
+                            <a href="https://wa.me/5514996306446?text=Ol%C3%A1%2C+gostaria+de+mais+informa%C3%A7%C3%B5es+a+respeito+de+um+%C3%B3culos..." target="_blank"><p><strong>Contato</strong></p></a>
+
+                        </div>
+                    </div>
+            
+                </footer>
+        </main>
     <script src="script.js"></script>
 </body>
 </html>
