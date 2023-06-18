@@ -73,7 +73,7 @@
     color:white;
     text-align: center;
     margin-top: 70px;
-    margin-right: -130px;
+    margin-right: -180px;
    
     
     
@@ -81,22 +81,20 @@
     i#burguer:hover{
         background-color: white;
         color: blue;
-        margin-left: -150px;
-
     }
     
     menu{
         display: none;
         
     }
-    menu ul{
+    menu > ul{
         list-style-type: none;
         position: absolute;
         z-index:999;
-        width: 100%;
+        width: 60vw;
         
     }
-    menu a{
+    menu > a{
         display: block;
         padding: 10px;
         text-decoration:none;
@@ -226,7 +224,7 @@
         width: 100%;
     }
     .modelos{
-        height: 100px;px;
+        height: 100px;
         width: 200px;
     }
     .modelos a img{
