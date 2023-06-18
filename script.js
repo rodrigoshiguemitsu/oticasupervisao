@@ -13,3 +13,11 @@ function nextImage() {
     document.getElementById("radio" + count).checked = true;
 
 }
+
+function clickMenu(){
+    if(itens.style.display == 'block'){
+        itens.style.display='none'
+    }else{
+        itens.style.display = 'block'
+    }
+}
