@@ -572,8 +572,8 @@
     .informacoesfoot a img{
         height: 30px;
         width: 30px;
-        margin-top: 10px;
-        margin-right: 100px;
+        margin-top: 40px;
+        margin-right: 10px;
         display: inline;
     }
     .informacoesfoot p{
@@ -583,7 +583,9 @@
         text-decoration: none;
         color:white;
         margin-top: 40px;
-        
+    }
+    #contato{
+        margin-top: 40px;
     }
     }
 
@@ -834,16 +836,19 @@ footer{
 .informacoesfoot a img{
     height: 30px;
     width: 30px;
-    margin-top: 40px;
-    margin-right: 100px;
+    margin-top: 30px;
+    margin-right: 10px;
 }
 .informacoesfoot p{
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .informacoesfoot a{
     text-decoration: none;
     color:white;
     
+}
+#contato{
+    margin-top: 30px;
 }
 }
 
@@ -1095,7 +1100,7 @@ footer{
         height: 30px;
         width: 30px;
         margin-top: 40px;
-        margin-right: 100px;
+        margin-right: 50px;
     }
     .informacoesfoot p{
         margin-top: 20px;
@@ -1104,5 +1109,8 @@ footer{
         text-decoration: none;
         color:white;
         
+    }
+    #contato{
+        margin-top: 20px;
     }
 }
