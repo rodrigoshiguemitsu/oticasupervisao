@@ -11,7 +11,7 @@ main{
     max-width: 767px;
     width: 100%;
     margin: auto;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.048);
     
 }
 header{
@@ -110,84 +110,6 @@ menu > ul > li > a:hover{
     color: blue;
 }
 
-.articleocsol1{
-    background-color:white;
-}
-.cabecalhoocsolm{
-    background-color: rgba(0, 0, 0, 0.664);
-    text-align: center;
-    height: 50px;
-    width: 100%;
-    padding-top: 10px;
-    font-size: 1.5em;
-    color: white;
-    border-radius: 0px 0px 10px 10px ;
-}
-.marcasocsolm{
-    justify-content: center;
-    display: block;
-}
-.marcasocsolm1{
-    display: flex;
-    justify-content: center;
-}
-.marcasocsolm1 img{
-    margin-left: 20px;
-    margin-top: 15px;
-    height: 70px;
-    width: 70px;
-}
-.aga3{
-    font-size: 1.5em;
-    text-align: center;
-    padding-top: 15px;
-    height: 60px;
-}
-
-.descricaomodelo{
-    text-align: center;
-    margin-top: -20px;
-    padding-top: 40px;
-}
-
-.articleocsol2{
-    background-color:white;
-}
-.cabecalhoocsolf{
-    margin-top: 50px;
-    background-color: rgba(0, 0, 0, 0.664);
-    text-align: center;
-    height: 50px;
-    width: 100%;
-    padding-top: 10px;
-    font-size: 1.5em;
-    color: white;
-    border-radius: 3px 3px 10px 10px;
-}
-.marcasocsolf{
-    justify-content: center;
-    display: block;
-}
-.marcasocsolf1{
-    display: flex;
-    justify-content: center;
-}
-.marcasocsolf1 img{
-    margin-left: 20px;
-    margin-top: 15px;
-    height: 70px;
-    width: 70px;
-}
-.aga3{
-    font-size: 1.5em;
-    text-align: center;
-    padding-top: 15px;
-    height: 60px;
-}
-.descricaomodelo{
-    text-align: center;
-    margin-top: -40px;
-}
 
 
 
@@ -252,7 +174,7 @@ footer{
         max-width: 1023px;
         width: 100%;
         margin: auto;
-        background-color:white;
+        background-color: rgba(0, 0, 0, 0.048);
         
     }
     header{
@@ -312,84 +234,12 @@ footer{
     }
 
 
-    .articleocsol1{
-        background-color:white;
-    }
-    .cabecalhoocsolm{
-        background-color: rgba(0, 0, 0, 0.664);
-        text-align: center;
-        height: 50px;
-        width: 100%;
-        padding-top: 10px;
-        font-size: 1.5em;
-        color: white;
-        border-radius: 0px 0px 10px 10px ;
-    }
-    .marcasocsolm{
-        justify-content: center;
-        display: block;
-    }
-    .marcasocsolm1{
-        display: flex;
-        justify-content: center;
-    }
-    .marcasocsolm1 img{
-        margin-left: 20px;
-        margin-top: 15px;
-        height: 150px;
-        width: 150px;
-    }
-    .aga3{
-        font-size: 1.5em;
-        text-align: center;
-        padding-top: 15px;
-        height: 60px;
-    }
-    
-    .descricaomodelo{
-        text-align: center;
-        margin-top: -20px;
-        padding-top: 40px;
-    }
 
-    .articleocsol2{
-        background-color:white;
-    }
-    .cabecalhoocsolf{
-        margin-top: 50px;
-        background-color: rgba(0, 0, 0, 0.664);
-        text-align: center;
-        height: 50px;
-        width: 100%;
-        padding-top: 10px;
-        font-size: 1.5em;
-        color: white;
-        border-radius: 3px 3px 10px 10px;
-    }
-    .marcasocsolf{
-        justify-content: center;
-        display: block;
-    }
-    .marcasocsolf1{
-        display: flex;
-        justify-content: center;
-    }
-    .marcasocsolf1 img{
-        margin-left: 20px;
-        margin-top: 15px;
-        height: 150px;
-        width: 150px;
-    }
-    .aga3{
-        font-size: 1.5em;
-        text-align: center;
-        padding-top: 15px;
-        height: 60px;
-    }
-    .descricaomodelo{
-        text-align: center;
-        margin-top: -40px;
-    }
+
+
+
+
+
 
     footer{
         text-align: center;
@@ -445,7 +295,7 @@ footer{
         max-width: 1439px;
         width: 100%;
         margin: auto;
-        background-color: white;
+        background-color: rgba(0, 0, 0, 0.048);
         
     }
     header{
@@ -501,85 +351,6 @@ footer{
     }
     #hamb{
         display: none;
-    }
-
-    .articleocsol1{
-        background-color:white;
-    }
-    .cabecalhoocsolm{
-        background-color: rgba(0, 0, 0, 0.664);
-        text-align: center;
-        height: 50px;
-        width: 100%;
-        padding-top: 10px;
-        font-size: 1.5em;
-        color: white;
-        border-radius: 0px 0px 10px 10px ;
-    }
-    .marcasocsolm{
-        justify-content: center;
-        display: block;
-    }
-    .marcasocsolm1{
-        display: flex;
-        justify-content: center;
-        
-    }
-    .marcasocsolm1 img{
-        margin-left: 20px;
-        margin-top: 15px;
-        height: 230px;
-        width: 230px;
-    }
-    .aga3{
-        font-size: 1.5em;
-        text-align: center;
-        padding-top: 15px;
-        height: 60px;
-    }
-    
-    .descricaomodelo{
-        text-align: center;
-        margin-top: -40px;
-    }
-
-    .articleocsol2{
-        background-color:white;
-    }
-    .cabecalhoocsolf{
-        margin-top: 50px;
-        background-color: rgba(0, 0, 0, 0.664);
-        text-align: center;
-        height: 50px;
-        width: 100%;
-        padding-top: 10px;
-        font-size: 1.5em;
-        color: white;
-        border-radius: 3px 3px 10px 10px;
-    }
-    .marcasocsolf{
-        justify-content: center;
-        display: block;
-    }
-    .marcasocsolf1{
-        display: flex;
-        justify-content: center;
-    }
-    .marcasocsolf1 img{
-        margin-left: 20px;
-        margin-top: 15px;
-        height: 230px;
-        width: 230px;
-    }
-    .aga3{
-        font-size: 1.5em;
-        text-align: center;
-        padding-top: 15px;
-        height: 60px;
-    }
-    .descricaomodelo{
-        text-align: center;
-        margin-top: -40px;
     }
 
 
@@ -643,7 +414,7 @@ footer{
         max-width: 1440px;
         width: 100%;
         margin: auto;
-        background-color:white;
+        background-color: rgba(0, 0, 0, 0.048);
         
     }
     header{
@@ -700,84 +471,18 @@ footer{
     #hamb{
         display: none;
     }
-    .articleocsol1{
-        background-color:white;
-    }
-    .cabecalhoocsolm{
-        background-color: rgba(0, 0, 0, 0.664);
-        text-align: center;
-        height: 50px;
-        width: 100%;
-        padding-top: 10px;
-        font-size: 1.5em;
-        color: white;
-        border-radius: 0px 0px 10px 10px ;
-    }
-    .marcasocsolm{
-        justify-content: center;
-        display: block;
-    }
-    .marcasocsolm1{
-        display: flex;
-        justify-content: center;
-    }
-    .marcasocsolm1 img{
-        margin-left: 20px;
-        margin-top: 15px;
-        height: 300px;
-    }
-    .aga3{
-        font-size: 1.5em;
-        text-align: center;
-        padding-top: 15px;
-        height: 60px;
-    }
-    
-    .descricaomodelo{
-        text-align: center;
-        margin-top: -40px;
-    }
 
-    .articleocsol2{
-        background-color:white;
-    }
-    .cabecalhoocsolf{
-        margin-top: 50px;
-        background-color: rgba(0, 0, 0, 0.664);
-        text-align: center;
-        height: 50px;
-        width: 100%;
-        padding-top: 10px;
-        font-size: 1.5em;
-        color: white;
-        border-radius: 3px 3px 10px 10px;
-    }
-    .marcasocsolf{
-        justify-content: center;
-        display: block;
-    }
-    .marcasocsolf1{
-        display: flex;
-        justify-content: center;
-    }
-    .marcasocsolf1 img{
-        margin-left: 20px;
-        margin-top: 15px;
-        height: 300px;
-    }
-    .aga3{
-        font-size: 1.5em;
-        text-align: center;
-        padding-top: 15px;
-        height: 60px;
-    }
-    .descricaomodelo{
-        text-align: center;
-        margin-top: -40px;
-    }
+
+
+
+
+
+
+
+
+
 
     footer{
-        margin-top: 50px;
         text-align: center;
         position:relative;
         height: 100px;
