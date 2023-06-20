@@ -239,28 +239,44 @@
         max-width: 767px;
         width: 100%;
         margin: auto;
+        background-color: rgba(0, 0, 0, 0.046);
     }
     .servicos{
         
         margin: auto;
         display: flex;
         justify-content: center;
+        
     
     }
     .imgservicos{
-        
-        max-width: 1000px;
+        font-size: 0.7em;
+        max-width: 767px;
         width:100%;
-        height: 500px;
-        width: 500px;
+        height: 190px;
+        width: 767px;
         margin-top: 10px;
-        margin-left: -250px;
-        margin-right: 20px;    
+        margin-right: 15px;
+        margin-left: 20px;     
     }
-    .imgservicos img{
-        display: none;
+    .imgservicos p{
+        margin-top: 40px;
     }
-
+    #imgcelular img{
+        max-width: 767px;
+        width: 250px;
+        margin-right:0px;
+        padding-right: 0px;
+        box-shadow: -0.4px 0.5px 0.5px 0.5px black;
+    }
+    #imgcelula2 img{
+        max-width: 767px;
+        width: 250px;
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-top: 10px;
+        box-shadow: 0.05px 0.5px 0.05px 0.5px black;
+    }
 
     h2{
         height: 20px;
@@ -272,9 +288,11 @@
         padding-top: 15px;
         padding-bottom: 10px;
         font-size: 15px;
+        text-shadow: 1px 1px 1px 0.5px black;
     }
     
     footer{
+        margin-top: -30px;
         text-align: center;
         position:relative;
         height: 100px;
@@ -518,25 +536,41 @@
         margin: auto;
         display: flex;
         justify-content: center;
+        margin-top: 0px;
+        padding-top: -40px;
+       
     
     }
+    
     .imgservicos{
+        font-size: 1.5em;
         max-width: 768px;
         width:100%;
-        height: 500px;
+        height: 250px;
         width: 500px;
-        margin-top: 10px;
+        margin-top: 100px;
         margin-left: 20px;
         margin-right: 20px;    
         
     }
-    .imgservicos img{
-        height: 500px;
-        width: 300px;
+    .imgservicos p{
+        margin-top: -50px;
     }
-    .imgservicos h3 {
-        margin-top: 30px;
+    #imgcelular img{
+        max-width: 1023px;
+        width: 500px;
+        margin-right:0px;
+        padding-right: 0px;
+        box-shadow: 0.05px 0.5px 0.5px 0.5px black;
     }
+    #imgcelula2 img{
+        max-width: 1023px;
+        width: 500px;
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-top: -50px;
+        box-shadow: 0.05px 0.5px 0.05px 0.5px black;
+    }    
     
     h2{
         height: 40px;
@@ -559,6 +593,7 @@
         border-radius: 5px 5px 0px 0px ;
         width: 100%;
         text-align: center;
+        margin-top: -50px;
     }
     #foot1{
         display: flex;
@@ -785,21 +820,39 @@ header{
     margin: auto;
 }
 .servicos{
-    
     margin: auto;
     display: flex;
     justify-content: center;
+    
 
 }
 .imgservicos{
-    max-width: 1000px;
+    font-size: 1.8em;
+    max-width: 1439px;
     width:100%;
-    height: 500px;
+    height: 250px;
     width: 500px;
-    margin-top: 10px;
+    margin-top: 140px;
     margin-left: 20px;
-    margin-right: 20px;    
-    
+    margin-right: 20px;   
+}
+.imgservicos p{
+    margin-top: -50px;
+}
+#imgcelular img{
+    max-width: 1439px;
+    width: 500px;
+    margin-right:0px;
+    padding-right: 0px;
+    box-shadow: 0.05px 0.5px 0.5px 0.5px black;
+}
+#imgcelula2 img{
+    max-width: 1439px;
+    width: 500px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-top: -50px;
+    box-shadow: 0.05px 0.5px 0.05px 0.5px black;
 }
 
 h2{
@@ -813,6 +866,7 @@ h2{
 }
 
 footer{
+    margin-top: -70px;
     text-align: center;
     position:relative;
     height: 100px;
@@ -1055,14 +1109,32 @@ footer{
     
     }
     .imgservicos{
-        max-width: 1000px;
+        font-size: 2em;
+        max-width: 1440px;
         width:100%;
-        height: 500px;
+        height:300px;
         width: 500px;
-        margin-top: 10px;
+        margin-top: 100px;
         margin-left: 20px;
         margin-right: 20px;    
-        
+    }
+    .imgservicos p{
+        margin-top: -50px;
+    }
+    #imgcelular img{
+        max-width: 1440px;
+        width: 500px;
+        margin-right:0px;
+        padding-right: 0px;
+        box-shadow: -0.05px 0.5px 0.5px 0.5px black;
+    }
+    #imgcelula2 img{
+        max-width: 1440px;
+        width: 500px;
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-top: -50px;
+        box-shadow: 0.05px 0.5px 0.05px 0.5px black;
     }
     
     h2{
@@ -1076,6 +1148,7 @@ footer{
     }
     
     footer{
+        margin-top: -70px;
         text-align: center;
         position:relative;
         height: 100px;
