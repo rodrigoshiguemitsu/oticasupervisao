@@ -5,6 +5,7 @@
         padding: 0px;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
         
+        
     }
     
     main{
@@ -25,7 +26,7 @@
         background-color:blue;
         box-shadow: 50px;
         display: flex;
-        justify-content: center;
+        text-align: center;
         
     }
     .cabecalho{
@@ -51,7 +52,7 @@
         color:white;
         padding: 8px;
         background-color:blue;
-        margin-left:8.9px ;
+        padding-left:8.9px ;
         border-radius: 10px 10px 0px 0px;
     }
     #menu-h li a:hover{
@@ -63,7 +64,7 @@
         max-width: 767%;
         width: 100%;
         height: 50px; 
-        margin-left: 120px;
+        padding-left: 120px;
         margin-top: 10px;
 
     }
@@ -94,7 +95,7 @@
         position: absolute;
         z-index:999;
         width: 100%;
-        margin-left: -212px;
+        margin-left: -211px;
     }
     menu a{
         display: block;
@@ -308,9 +309,10 @@
     }
     #foot1{
         display: flex;
-        margin-left: 20px;
-        margin-right: 20px;
+        
+        
         width:100%;
+        background-color: #FFF;
     }
     .informacoesfoot{
         width: 50%;
@@ -320,11 +322,12 @@
         height: 30px;
         width: 30px;
         margin-top: 35px;
-        margin-right: 10px;
+        padding-right: 10px;
     }
     .informacoesfoot p{
+        max-width: 767px;
         margin-top: 10px;
-        margin-right: 50px;
+        padding-right: 50px;
     }
     .informacoesfoot a{
         text-decoration: none;
@@ -337,7 +340,7 @@
     #fixazap{
         position: fixed;
         bottom:50px ;
-        right: 30px;   
+        right: 20px;   
         z-index: 5000;     
     }
     #fixazap img{
